@@ -142,7 +142,8 @@
     "publishedAt": "2023-11-09T01:37:38Z",
     "title": "add probing code",
     "labels": [
-      "good first issue"
+      "good first issue",
+      "Pathfinding"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/60484029?v=4"
   },
@@ -168,6 +169,15 @@
     "url": "https://github.com/lightningdevkit/rust-lightning/issues/2958",
     "publishedAt": "2024-03-21T07:10:11Z",
     "title": "Move tests in `channelmanager.rs` into more appropriate test files",
+    "labels": [
+      "good first issue"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/60484029?v=4"
+  },
+  {
+    "url": "https://github.com/lightningdevkit/rust-lightning/issues/3561",
+    "publishedAt": "2025-01-24T15:57:28Z",
+    "title": "Add a reason enum to `HTLCDestination` in some variants",
     "labels": [
       "good first issue"
     ],

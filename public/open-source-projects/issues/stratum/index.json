@@ -218,7 +218,7 @@
     "title": "TProxy responding to mining.submit with result:true for low difficulty shares.",
     "labels": [
       "bug",
-      "translation proxy"
+      "translator proxy"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
   },
@@ -267,12 +267,23 @@
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
   },
   {
+    "url": "https://github.com/stratum-mining/stratum/issues/1266",
+    "publishedAt": "2024-11-28T16:45:12Z",
+    "title": "Investigate ghost processes in tproxy and JDC",
+    "labels": [
+      "bug",
+      "roles",
+      "integration-tests"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
+  },
+  {
     "url": "https://github.com/stratum-mining/stratum/issues/1279",
     "publishedAt": "2024-12-09T10:17:03Z",
     "title": "Prevent tproxy from panicing if downstream address is unavailable",
     "labels": [
       "bug",
-      "translation proxy",
+      "translator proxy",
       "refactor"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
@@ -292,7 +303,7 @@
     "title": "JDS Unable to establish connection when Tproxy is activated",
     "labels": [
       "bug",
-      "translation proxy",
+      "translator proxy",
       "job-declarator-server"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
@@ -308,24 +319,55 @@
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
   },
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/1355",
-    "publishedAt": "2025-01-16T14:30:35Z",
-    "title": "tProxy cannot handle 10k miners with delay of 100ms between each connection",
+    "url": "https://github.com/stratum-mining/stratum/issues/1397",
+    "publishedAt": "2025-01-24T16:48:46Z",
+    "title": "Pool role doesn't start when using P2TR output_script_type",
     "labels": [
       "bug",
-      "roles",
-      "high prio",
-      "adopter-feedback"
+      "sv2 pool",
+      "roles"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
   },
   {
-    "url": "https://github.com/stratum-mining/stratum/issues/1384",
-    "publishedAt": "2025-01-22T16:40:17Z",
-    "title": "Look into `Sniffer::recv_from_up_send_to_down` as it seems broken",
+    "url": "https://github.com/stratum-mining/stratum/issues/1418",
+    "publishedAt": "2025-01-29T22:16:14Z",
+    "title": "JDS connects to wrong RPC port on Integration Tests",
     "labels": [
       "bug",
       "integration-tests"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1420",
+    "publishedAt": "2025-01-29T22:45:24Z",
+    "title": "JDC does not exchange messages with TP in Integration Tests",
+    "labels": [
+      "bug",
+      "integration-tests",
+      "blocker"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1431",
+    "publishedAt": "2025-01-31T16:18:42Z",
+    "title": "Incorrect Task Status Handling in translator_sv2",
+    "labels": [
+      "bug",
+      "translator proxy",
+      "roles"
+    ],
+    "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
+  },
+  {
+    "url": "https://github.com/stratum-mining/stratum/issues/1473",
+    "publishedAt": "2025-02-11T17:49:40Z",
+    "title": "`binary_sv2` procedural macro (in `derive_codec_sv2` cannot serialize messages with fields named `data`)",
+    "labels": [
+      "bug",
+      "binary-sv2"
     ],
     "imageUrl": "https://avatars.githubusercontent.com/u/78796858?v=4"
   }

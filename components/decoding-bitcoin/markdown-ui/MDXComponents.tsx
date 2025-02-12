@@ -1,8 +1,8 @@
 import TOCInline from "pliny/ui/TOCInline"
 import BlogNewsletterForm from "pliny/ui/BlogNewsletterForm"
 import type { MDXComponents } from "mdx/types"
-import CustomLink from "../markdown-ui/Link"
-import Image from "../markdown-ui/Image"
+import CustomLink from "./Link"
+import Image from "./Image"
 import SvgDisplay from "./script-visualizer/SvgDisplay"
 import ScriptStackVisualizer from "./script-visualizer/scriptVisualizer"
 import TransactionsDisplay from "./transaction-serializer/TransactionDisplay"
@@ -25,6 +25,7 @@ import HexTransactionHighlighter from "./hex-transaction-highlighter"
 import DiscordInvite from "./discord-invite"
 import TransactionCreation from "@/src/components/TransactionCreation"
 import TransactionAnimationPlayer from "@/content/transaction-animation-player"
+import TransactionDecoder from "./transaction-decoder"
 
 export const components: MDXComponents = {
     Image,
@@ -53,5 +54,6 @@ export const components: MDXComponents = {
     HexTransactionHighlighter,
     DiscordInvite,
     TransactionCreation,
-    TransactionAnimationPlayer
+    TransactionAnimationPlayer,
+    TransactionDecoder
 }
